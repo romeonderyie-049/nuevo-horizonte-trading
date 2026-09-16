@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NUEVO HORIZONTE | Trading Analytics</title>
+
+  <meta name="description"
+        content="NUEVO HORIZONTE real-time market analysis and trading analytics platform.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+
+    <div class="logo">
+      NUEVO <span>HORIZONTE</span>
+    </div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#markets">Live Markets</a>
+      <a href="#analysis">Analysis</a>
+      <a href="#bot">Trading Bot</a>
+    </nav>
+
+    <a href="#connect" class="connect-btn">
+      Connect Deriv
+    </a>
+
+  </header>
+
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+
+    <div class="hero-content">
+
+      <div class="badge">
+        ● LIVE MARKET ANALYTICS
+      </div>
+
+      <h1>
+        Trade Smarter With
+        <span>Live Market Intelligence</span>
+      </h1>
+
+      <p>
+        Real-time market data, advanced technical analysis
+        and powerful trading tools in one platform.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#markets" class="primary-btn">
+          Launch Dashboard
+        </a>
+
+        <a href="#connect" class="secondary-btn">
+          Connect Deriv
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- LIVE MARKETS -->
+  <section id="markets" class="section">
+
+    <div class="section-title">
+
+      <p>LIVE MARKETS</p>
+
+      <h2>Market Overview</h2>
+
+      <span>
+        Real-time market monitoring
+      </span>
+
+    </div>
+
+
+    <div class="market-grid">
+
+      <div class="market-card">
+
+        <div class="market-name">
+          VOLATILITY 100
+        </div>
+
+        <div class="price">
+          125.42
+        </div>
+
+        <div class="positive">
+          ▲ +1.24%
+        </div>
+
+      </div>
+
+
+      <div class="market-card">
+
+        <div class="market-name">
+          VOLATILITY 75
+        </div>
+
+        <div class="price">
+          84.21
+        </div>
+
+        <div class="negative">
+          ▼ -0.38%
+        </div>
+
+      </div>
+
+
+      <div class="market-card">
+
+        <div class="market-name">
+          VOLATILITY 50
+        </div>
+
+        <div class="price">
+          52.73
+        </div>
+
+        <div class="positive">
+          ▲ +0.72%
+        </div>
+
+      </div>
+
+
+      <div class="market-card">
+
+        <div class="market-name">
+          VOLATILITY 25
+        </div>
+
+        <div class="price">
+          31.84
+        </div>
+
+        <div class="positive">
+          ▲ +0.41%
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ANALYSIS -->
+  <section id="analysis" class="section analysis-section">
+
+    <div class="section-title">
+
+      <p>TECHNICAL ANALYSIS</p>
+
+      <h2>Advanced Market Analysis</h2>
+
+    </div>
+
+
+    <div class="dashboard">
+
+      <aside class="sidebar">
+
+        <h3>MARKETS</h3>
+
+        <button>Volatility 100</button>
+        <button>Volatility 75</button>
+        <button>Volatility 50</button>
+        <button>Volatility 25</button>
+        <button>Boom 1000</button>
+        <button>Crash 1000</button>
+
+      </aside>
+
+
+      <main class="chart-area">
+
+        <div class="chart-header">
+
+          <div>
+
+            <h2>Volatility 100</h2>
+
+            <div class="current-price">
+              125.42
+              <span>+1.24%</span>
+            </div>
+
+          </div>
+
+          <div class="timeframes">
+
+            <button>1m</button>
+            <button>5m</button>
+            <button>15m</button>
+            <button>1H</button>
+            <button>4H</button>
+
+          </div>
+
+        </div>
+
+
+        <div class="chart-placeholder">
+
+          <div class="chart-line">
+            ╱╲__╱╲___╱╲
+               ╲╱   ╲╱
+          </div>
+
+          <p>
+            LIVE CHART
+          </p>
+
+        </div>
+
+
+        <div class="indicators">
+
+          <div>
+            <small>RSI</small>
+            <strong>62.4</strong>
+          </div>
+
+          <div>
+            <small>MACD</small>
+            <strong>Positive</strong>
+          </div>
+
+          <div>
+            <small>EMA</small>
+            <strong>Bullish</strong>
+          </div>
+
+          <div>
+            <small>TREND</small>
+            <strong>Uptrend</strong>
+          </div>
+
+        </div>
+
+      </main>
+
+    </div>
+
+  </section>
+
+
+  <!-- BOT -->
+  <section id="bot" class="section">
+
+    <div class="section-title">
+
+      <p>AUTOMATION</p>
+
+      <h2>Trading Bot</h2>
+
+      <span>
+        Automated trading tools
+      </span>
+
+    </div>
+
+
+    <div class="bot-card">
+
+      <div class="bot-status">
+        <span>●</span>
+        BOT OFFLINE
+      </div>
+
+      <div class="bot-settings">
+
+        <label>
+          Market
+
+          <select>
+            <option>Volatility 100</option>
+            <option>Volatility 75</option>
+            <option>Volatility 50</option>
+          </select>
+
+        </label>
+
+
+        <label>
+          Strategy
+
+          <select>
+            <option>EMA + RSI</option>
+            <option>Moving Average</option>
+            <option>Custom Strategy</option>
+          </select>
+
+        </label>
+
+
+        <label>
+          Stake
+
+          <input type="number" value="1">
+        </label>
+
+      </div>
+
+
+      <button class="start-btn">
+        START BOT
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- CONNECT -->
+  <section id="connect" class="connect-section">
+
+    <h2>Connect Your Deriv Account</h2>
+
+    <p>
+      Connect your Deriv account to access personalized
+      trading features and account tools.
+    </p>
+
+    <button class="connect-large">
+      CONNECT DERIV
+    </button>
+
+    <small>
+      Trading involves risk. Past performance does not
+      guarantee future results.
+    </small>
+
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="logo">
+      NUEVO <span>HORIZONTE</span>
+    </div>
+
+    <p>
+      © 2026 NUEVO HORIZONTE. All rights reserved.
+    </p>
+
+    <div>
+      Risk Disclosure · Privacy · Terms
+    </div>
+
+  </footer>
+
+
+</body>
+  </html>
